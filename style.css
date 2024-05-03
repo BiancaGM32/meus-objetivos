@@ -4,9 +4,9 @@
     --cor-de-fundo: #d68daf;
     --verde: #fd00e8;
     --branco: #FFFFFF;
-    --botao-ativo: #9c44777c;
+    --botao-ativo:  #9c44777c;
     --botao-inativo: rgba(75, 0, 31, 0.5);
-    --texto-fundo: rgba(138, 0, 69, 0.767);
+    --texto-fundo:  rgba(138, 0, 69, 0.767);
 }
 
 body {
@@ -87,6 +87,30 @@ body {
     text-align: center;
     color: var(--verde);
     text-transform: uppercase;
+}
+
+.contador{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contador-digito{
+    padding: 0 16px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+
+}
+
+.contador-digito-texto{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
+
 }
 
 @media screen and (min-width: 768px) {
